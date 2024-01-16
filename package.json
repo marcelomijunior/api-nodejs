@@ -1,19 +1,18 @@
 {
   "version": "1.0.0",
-  "description": "",
+  "description": "API em nodejs para estudo.",
   "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js",
     "test": "echo \"Error: no test especified\" && exit 1"
   },
-  "author": {
-    "name": "Marcelo de Miranda Junior",
-    "email": "marcelomijunior@outlook.com"
-  },
+  "author": "Marcelo de Miranda Junior <marcelomijunior@outlook.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
     "mongoose": "^8.0.4"
-  }
+  },
+  "name": "api-nodejs",
+  "devDependencies": {}
 }

@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const db = require("./mongoose.config");
+const db = require("./database");
 
 const indexRoute = require("./routes/index");
 const todoRoute = require("./routes/todoRouter");
@@ -14,6 +14,6 @@ app.use(
 );
 
 app.use("/", indexRoute);
-app.use("/", todoRoute);
+app.use("/todo", todoRoute);
 
 module.exports = app;

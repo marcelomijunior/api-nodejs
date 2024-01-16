@@ -1,5 +1,5 @@
 const app = require("./app");
-const db = require("./mongoose.config");
+const db = require("./database");
 
 db.init();
 
